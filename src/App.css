@@ -1,0 +1,96 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+ height: 100vh; 
+ width: 100%;
+background-color: #6983aa;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.center-main{
+  width: 25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px 6px rgba(0,0,0,.3);
+  border-radius: 15px;
+}
+
+h1{
+  color: wheat;
+  background: transparent;
+background-color: #8566aa;
+padding: 6px 0 3px 0;
+}
+
+input{
+  text-align:center;
+  height: 30px;
+  top: 10px;
+  border: none;
+background-color: #8566aa;
+border-bottom: 2px solid ;
+background: none;
+font-weight: 500;
+width: 60%;
+outline: none;   
+font-size: 20px;
+}
+
+
+.btn{
+  width: 45px;
+  font-size: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+background-color: #8566aa;
+color: #fff;
+border: none;
+ outline: none;
+ margin-left: 10px;
+ box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.4);
+}
+
+.btn:hover{
+  background-color: #20bf6b;
+}
+
+ol{
+  margin-top: 30px;
+}
+
+ol li{
+  padding: 0px;
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 500p;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+}
+
+.deleteItem{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+.dltbtn{
+  background-color: red;
+  margin-top: 15px;
+  border-radius: 50%;
+  padding: 5px;
+  width: 8%;
+  outline: none;
+  border: none;
+
+
+}
